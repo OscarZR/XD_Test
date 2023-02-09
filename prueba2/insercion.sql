@@ -1,14 +1,14 @@
-INSERT INTO Movimientos(id_movimiento,descripcion)
+INSERT INTO Movimientos(ID_MOVIMIENTO,DESCRIPCION)
 VALUES (1,'Salida'),
 (2,'Llegada');
 
-INSERT INTO Aerolineas(id_aerolinea,nombre_aerolinea)
+INSERT INTO Aerolineas(ID_AEROLINEA,NOMBRE_AEROLINEA)
 VALUES (1,'Volaris'),
 (2,'Aeromar'),
 (3,'Interjet'),
 (4,'Aeromexico');
 
-INSERT INTO Aeropuertos(id_aeropuerto,nombre_aeropuerto)
+INSERT INTO Aeropuertos(ID_AEROPUERTO,NOMBRE_AEROPUERTO)
 VALUES (1,'Benito Juarez'),
 (2,'Guanajuato'),
 (3,'La Paz'),
