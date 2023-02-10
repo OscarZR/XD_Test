@@ -26,7 +26,7 @@ def variables(connection):
     }
     yield reasons
 def test_connection(connection):
-    assert connection is not None
+    assert connection is not None and connection !=[]
 
 def test_samples(variables):
     less_visits = variables['less_visits']
