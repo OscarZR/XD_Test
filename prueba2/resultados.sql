@@ -26,7 +26,7 @@ SELECT VECES AS TOTAL, AEROLINEA, YEAR FROM (
 
 --Tercera query
 SELECT MAX(VECES) AS TOTAL, DIA FROM (
-    SELECT count(*) AS VECES,  CAST(SUBSTR(DIA, 6, 2) AS integer) AS DIA 
+    SELECT count(*) AS VECES,  CAST(SUBSTR(DIA, 9, 2) AS integer) AS DIA 
     FROM Vuelos
     GROUP BY DIA);
 

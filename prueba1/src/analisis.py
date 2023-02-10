@@ -51,7 +51,7 @@ def main():
     analisis_results = analizador(response_json)
     fecha_vieja = datetime.utcfromtimestamp(analisis_results['creation_date']).strftime('%Y-%m-%d')
     fecha_actual = datetime.utcfromtimestamp(analisis_results['creation_date_act']).strftime('%Y-%m-%d')
-    print(f'Respuestas contestadas: {analisis_results["answered_responses"]}.\
+    print(f'Respuestas contestadas: {analisis_results["answered_responses"]}\
     Respuestas no contestadas: {analisis_results["noanswered_respones"]}')
     print(f'La pregunta con menor vistas es la {analisis_results["answer_index"]}\
     con {analisis_results["less_visits"]} vistas')
