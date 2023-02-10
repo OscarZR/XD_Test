@@ -12,6 +12,7 @@ Las pruebas unitarias las enfoque en tres partes.
     <li>Revisar la extracción de datos.</li>
     <li>Asegurar que el análisis se realiza sobre las 30 preguntas que vienen en el enlace usando como comparadores las resspuestas contestadas y las no contestadas. De esta forma sabemos que se mantiene la integridad del numero de datos.</li>
 </ul>
+
 ### Segunda Prueba
 Todo lo realizado lo hice en un editor web para no entrar en conflictos de diferencias entre motores de SQL, en el enlace https://sqliteonline.com/ usando SQLite.
 Los queries se encuentran en la carpeta /prueba2/. Lo subidividi en 4 archivos: creacion de las tablas, inserción de datos, creacion de tabla vuelos y obtencion de resultados.
